@@ -10,6 +10,13 @@ h6 {
   padding: 0;
 }
 
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+
 body {
   background-color: #eaf6f6;
   font-family: 'Poppins', sans-serif;
@@ -33,9 +40,11 @@ body {
   align-items: center;
 }
 
-.logo{
+.logo {
   margin-left: 16px;
   padding: 8px;
+  max-width: 5px;
+  max-height: 5px;
 }
 
 .nav-toggler {
@@ -45,9 +54,9 @@ body {
 
 /* headline container */
 .headline {
-  height: 604px;
   background-color: #fff;
   background-image: url(./assets/img/headline-background.svg);
+  background-repeat: no-repeat;
   border-bottom-left-radius: 110px 110px;
   display: flex;
   flex-direction: column;
@@ -56,40 +65,45 @@ body {
   gap: 12px;
 }
 
-#headline-primary {
-  align-self: center;
+#head-primary {
   width: 327px;
   height: 150px;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
+  color: #172b4d;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-span {
-  display: block;
-}
-
-#headline-secondary {
-  background-color: green;
-  align-self: center;
+#head-intro {
   width: 327px;
   height: 146px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  color: #344563;
 }
 
 .social-media {
-  background-color: aqua;
   width: 327px;
-  /* align-self: center; */
 }
 
-a,
-a:hover,
-a:focus,
-a:active {
-  text-decoration: none;
+.lets-connect {
+  height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  padding: 8px;
+}
+
+.social-links {
+  width: 170.17px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
 }
