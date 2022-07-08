@@ -11,6 +11,10 @@ In this project I have made first two sections of my portfolio mobile version us
 - HTML
 - CSS
 
+## Live Demo
+
+[Live Demo Link](https://iamwaris97.github.io/iAmWaris97-Portfolio/)
+
 ## Getting Started
 
 >To get a local copy of this project follow the following steps:
