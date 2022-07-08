@@ -12,6 +12,7 @@ h6 {
 
 body {
   background-color: #eaf6f6;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* parent container */
@@ -19,16 +20,27 @@ body {
   background-color: #f7f7f9;
   max-width: 375px;
   margin: 0 auto;
+  height: 100vh;
 }
 
-/* toolbar */
+/* navbar */
 .navbar {
+  /* width: 327px; */
   height: 48px;
   background-color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 30px;
+}
+
+.logo{
+  margin-left: 16px;
+  padding: 8px;
+}
+
+.nav-toggler {
+  margin-right: 16px;
+  padding: 8px;
 }
 
 /* headline container */
@@ -36,28 +48,48 @@ body {
   height: 604px;
   background-color: #fff;
   background-image: url(./assets/img/headline-background.svg);
-  border-bottom-left-radius: 100px 100px;
+  border-bottom-left-radius: 110px 110px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: flex-start;
+  padding: 114px 24px;
+  gap: 12px;
 }
 
 #headline-primary {
-  background-color: red;
+  align-self: center;
   width: 327px;
   height: 150px;
-  font-family: 'Poppins', sans-serif;
-}
-
-#headline-secondary {
-  font-size: 16px;
-  width: 327px;
-  height: 146px;
-  font-family: 'Poppins', sans-serif;
-  background-color: green;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
 }
 
 span {
   display: block;
+}
+
+#headline-secondary {
+  background-color: green;
+  align-self: center;
+  width: 327px;
+  height: 146px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.social-media {
+  background-color: aqua;
+  width: 327px;
+  /* align-self: center; */
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
 }
