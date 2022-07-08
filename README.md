@@ -4,7 +4,7 @@
 
 This is the second project as part of the Microverse first week projects!
 In this project I have made first two sections of my portfolio mobile version using HTML/CSS.
-![Project Screenshot](src\assets\img\screenshot.png "Portfolio Project")
+![Project Screenshot](./src/assets/img/screenshot.png "Portfolio Project")
 
 ## Built With
 
