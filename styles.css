@@ -59,7 +59,7 @@ body {
 /* headline container */
 .headline {
   background-color: #fff;
-  background-image: url(./assets/img/headline-background.svg);
+  background-image: url(./src/assets/img/headline-background.svg);
   background-repeat: no-repeat;
   border-bottom-left-radius: 110px 110px;
   display: flex;
