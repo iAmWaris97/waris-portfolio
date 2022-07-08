@@ -11,6 +11,20 @@ In this project I have made first two sections of my portfolio mobile version us
 - HTML
 - CSS
 
+## Getting Started
+
+>To get a local copy of this project follow the following steps:
+
+-Clone this repository with
+
+<code>git clone https://github.com/iAmWaris97/iAmWaris97-Portfolio</code> using your terminal or command line.
+
+-Change to the project directory by entering :
+
+<code>cd iAmWaris97-Portfolio</code> in the terminal.
+
+-run <code>code . </code>to open it in VSCode
+
 ## Author:
 
 👤 **Waris Haleem**

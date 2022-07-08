@@ -17,6 +17,10 @@ a:active {
   text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
 body {
   background-color: #eaf6f6;
   font-family: 'Poppins', sans-serif;
