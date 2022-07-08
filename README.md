@@ -1,4 +1,4 @@
-# Hello-Microverse
+# iAmWaris97 | Portfolio
 
 > My persnal portfolio project
 
