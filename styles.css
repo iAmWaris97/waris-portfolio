@@ -227,10 +227,6 @@ body {
   height: 72px;
 }
 
-.resume-button {
-  width: 162px;
-}
-
 .project-action button,
 .resume-button {
   font-style: normal;
@@ -246,6 +242,10 @@ body {
   width: 124px;
   height: 48px;
   cursor: pointer;
+}
+
+.resume-button {
+  width: 162px;
 }
 
 .project-action button:hover,
