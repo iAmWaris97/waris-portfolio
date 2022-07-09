@@ -19,6 +19,7 @@ a:active {
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 body {
@@ -31,12 +32,11 @@ body {
   background-color: #f7f7f9;
   max-width: 375px;
   margin: 0 auto;
-  height: 100vh;
+  height: fit-content;
 }
 
 /* navbar */
 .navbar {
-  /* width: 327px; */
   height: 48px;
   background-color: #fff;
   display: flex;
@@ -69,7 +69,7 @@ body {
   gap: 12px;
 }
 
-#head-primary {
+.head-primary {
   width: 327px;
   height: 150px;
   font-style: normal;
@@ -82,7 +82,7 @@ body {
   align-items: flex-start;
 }
 
-#head-intro {
+.head-intro {
   width: 327px;
   height: 146px;
   font-style: normal;
@@ -90,10 +90,6 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-}
-
-.social-media {
-  width: 327px;
 }
 
 .lets-connect {
@@ -110,4 +106,238 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 8px;
+}
+
+/* Projects section */
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 114px 24px;
+  gap: 88px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  width: 327px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  box-sizing: border-box;
+  padding-bottom: 40px;
+}
+
+.left-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
+  width: 295px;
+  height: 288px;
+}
+
+.second-card .left-block,
+.fourth-card .left-block {
+  height: 332px;
+}
+
+.project-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
+  width: 295px;
+  height: 80px;
+}
+
+.second-card .project-title,
+.fourth-card .project-title {
+  height: 124px;
+}
+
+.title {
+  height: 32px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.second-card .title,
+.fourth-card .title {
+  height: 80px;
+}
+
+.frame ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 12px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  height: 40px;
+  color: #7a869a;
+  margin: 0;
+}
+
+.client {
+  color: #344563;
+}
+
+.info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.project-tags ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+}
+
+.html,
+.css,
+.javascript {
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 4px 12px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
+
+.project-action {
+  width: 295px;
+  height: 72px;
+}
+
+.project-action button,
+.resume-button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  background-color: #fff;
+  padding: 12px;
+  gap: 10px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  width: 124px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.resume-button {
+  width: 162px;
+}
+
+.project-action button:hover,
+.resume-button:hover {
+  background: #6070ff;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.project-action button:active,
+.resume-button:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+.project-action button:disabled,
+.resume-button:disabled {
+  background: #e5e5e5;
+  color: #5e6c84;
+  box-shadow: none;
+}
+
+/* About me section */
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 114px 24px;
+  gap: 24px;
+  background-color: #fff;
+  border-top-right-radius: 100px 100px;
+}
+
+.about .head-primary {
+  height: 101px;
+}
+
+.about .head-intro {
+  padding-top: 10px;
+}
+
+.skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 327px;
+  height: 72px;
+  border-bottom: #dfe1e6 1px solid;
+}
+
+.skill:first-child {
+  border-bottom: none;
+}
+
+.skills img {
+  width: 8px;
+  height: 14px;
+}
+
+.skill p {
+  height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+}
+
+.language {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 66.72px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  gap: 10px;
+}
+
+li.language {
+  margin: 8px 0;
+}
+
+.language img {
+  width: 48px;
+  height: 48px;
+}
+
+.hide {
+  display: none;
 }

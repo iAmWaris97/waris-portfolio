@@ -2,9 +2,9 @@
 
 > My persnal portfolio project
 
-This is the second project as part of the Microverse first week projects!
-In this project I have made first two sections of my portfolio mobile version using HTML/CSS.
-![Project Screenshot](./src/assets/img/screenshot.png "Portfolio Project")
+This is the third project as part of the Microverse first week projects!
+In this project I have made projects and about me sections of my portfolio mobile version using HTML/CSS.
+![Project Screenshot](./src/assets/img/screenshot-1.png "Portfolio Project")
 
 ## Built With
 
