@@ -37,7 +37,6 @@ body {
 
 /* navbar */
 .navbar {
-  /* width: 327px; */
   height: 48px;
   background-color: #fff;
   display: flex;
@@ -72,7 +71,7 @@ body {
 
 #head-primary {
   width: 327px;
-  /* height: 150px; */
+  height: 150px;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -93,10 +92,6 @@ body {
   color: #344563;
 }
 
-.social-media {
-  width: 327px;
-}
-
 .lets-connect {
   height: 24px;
   font-weight: 500;
@@ -113,15 +108,13 @@ body {
   padding: 8px;
 }
 
+/* Projects section */
 .projects {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   padding: 114px 24px;
   gap: 88px;
-  width: 375px;
-  box-sizing: content-box;
 }
 
 .project-card {
@@ -134,31 +127,116 @@ body {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+  box-sizing: border-box;
+  padding-bottom: 40px;
+}
+
+.left-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 295px;
+  height: 288px;
+}
+
+.second-card .left-block, .fourth-card .left-block {
+  height: 332px;
 }
 
 .project-title {
-  width: 295px;
   display: flex;
   flex-direction: column;
-  padding: 0;
   align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 295px;
+  height: 80px;
 }
 
-.frame ul,
+.second-card .project-title, .fourth-card .project-title {
+  height: 124px;
+}
+
+.title {
+  height: 32px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172B4D;
+}
+
+.second-card .title, .fourth-card .title {
+  height: 80px;
+}
+
+.frame ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  height: 40px;
+  color: #7a869a;
+  margin: 0;
+}
+
+.client {
+  color: #344563;
+}
+
+.info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
 .project-tags ul {
   display: flex;
-  justify-content: flex-start;
-}
-
-ul li {
-  padding: 3px;
-}
-
-.about {
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  padding: 114px 24px;
-  gap: 24px;
+  padding: 0px;
+  gap: 8px;
 }
+
+.html,
+.css,
+.javascript {
+  background-color: red;
+  background: #EBEBFF;
+  border-radius: 8px;
+  padding: 4px 12px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
+
+.project-action {
+  width: 295px;
+  height: 72px;
+}
+
+.project-action button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  padding: 12px;
+  gap: 10px;
+  border: 1px solid #6070FF;
+  border-radius: 8px;
+  width: 124px;
+  height: 48px;
+}
+
+/* About me section */
