@@ -69,7 +69,7 @@ body {
   gap: 12px;
 }
 
-#head-primary {
+.head-primary {
   width: 327px;
   height: 150px;
   font-style: normal;
@@ -82,7 +82,7 @@ body {
   align-items: flex-start;
 }
 
-#head-intro {
+.head-intro {
   width: 327px;
   height: 146px;
   font-style: normal;
@@ -135,7 +135,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 295px;
   height: 288px;
@@ -150,7 +150,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 295px;
   height: 80px;
@@ -167,7 +167,7 @@ body {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .second-card .title,
@@ -179,7 +179,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   font-size: 13px;
   font-style: normal;
@@ -205,15 +205,14 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 8px;
 }
 
 .html,
 .css,
 .javascript {
-  background-color: red;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   padding: 4px 12px;
   font-weight: 500;
@@ -237,7 +236,7 @@ body {
   color: #396df2;
   padding: 12px;
   gap: 10px;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
   width: 124px;
   height: 48px;
@@ -255,11 +254,11 @@ body {
   border-top-right-radius: 100px 100px;
 }
 
-.about #head-primary {
+.about .head-primary {
   height: 101px;
 }
 
-.about #head-intro {
+.about .head-intro {
   padding-top: 10px;
 }
 
@@ -309,14 +308,15 @@ body {
   gap: 10px;
 }
 
+li.language {
+  margin: 8px 0;
+}
+
 .language img {
   width: 48px;
   height: 48px;
 }
 
-ul .language-skill {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 8px;
+.hide {
+  display: none;
 }
