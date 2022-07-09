@@ -141,7 +141,8 @@ body {
   height: 288px;
 }
 
-.second-card .left-block, .fourth-card .left-block {
+.second-card .left-block,
+.fourth-card .left-block {
   height: 332px;
 }
 
@@ -155,7 +156,8 @@ body {
   height: 80px;
 }
 
-.second-card .project-title, .fourth-card .project-title {
+.second-card .project-title,
+.fourth-card .project-title {
   height: 124px;
 }
 
@@ -168,7 +170,8 @@ body {
   color: #172B4D;
 }
 
-.second-card .title, .fourth-card .title {
+.second-card .title,
+.fourth-card .title {
   height: 80px;
 }
 
@@ -225,7 +228,8 @@ body {
   height: 72px;
 }
 
-.project-action button {
+.project-action button,
+.about button {
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -237,6 +241,82 @@ body {
   border-radius: 8px;
   width: 124px;
   height: 48px;
+  cursor: pointer;
 }
 
 /* About me section */
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 114px 24px;
+  gap: 24px;
+  background-color: #fff;
+  border-top-right-radius: 100px 100px;
+}
+
+.about #head-primary {
+  height: 101px;
+}
+
+.about #head-intro {
+  padding-top: 10px;
+}
+
+.about button {
+  width: 150px;
+}
+
+.skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 327px;
+  height: 72px;
+  border-bottom: #dfe1e6 1px solid;
+}
+
+.skill:first-child {
+  border-bottom: none;
+}
+
+.skills img {
+  width: 8px;
+  height: 14px;
+}
+
+.skill p {
+  height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+}
+
+.language {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 66.72px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  gap: 10px;
+}
+
+.language img {
+  width: 48px;
+  height: 48px;
+}
+
+ul .language-skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
