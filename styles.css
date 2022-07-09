@@ -227,6 +227,10 @@ body {
   height: 72px;
 }
 
+.about button {
+  width: 150px;
+}
+
 .project-action button,
 .about button {
   font-style: normal;
@@ -241,6 +245,26 @@ body {
   width: 124px;
   height: 48px;
   cursor: pointer;
+}
+
+.project-action button:hover,
+.about button:hover {
+  background: #6070ff;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.project-action button:active,
+.about button:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+.project-action button:disabled,
+.about button:disabled {
+  background: #e5e5e5;
+  color: #5e6c84;
+  box-shadow: none;
 }
 
 /* About me section */
@@ -260,10 +284,6 @@ body {
 
 .about .head-intro {
   padding-top: 10px;
-}
-
-.about button {
-  width: 150px;
 }
 
 .skill {
