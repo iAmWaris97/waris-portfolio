@@ -227,7 +227,12 @@ body {
   height: 72px;
 }
 
-.project-action button, .resume-button {
+.resume-button {
+  width: 162px;
+}
+
+.project-action button,
+.resume-button {
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -243,18 +248,21 @@ body {
   cursor: pointer;
 }
 
-.project-action button:hover, .resume-button:hover {
+.project-action button:hover,
+.resume-button:hover {
   background: #6070ff;
   color: #fff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
-.project-action button:active, .resume-button:active {
+.project-action button:active,
+.resume-button:active {
   background: #2230d2;
   color: #fff;
 }
 
-.project-action button:disabled, .resume-button:disabled {
+.project-action button:disabled,
+.resume-button:disabled {
   background: #e5e5e5;
   color: #5e6c84;
   box-shadow: none;
@@ -304,10 +312,6 @@ body {
   font-size: 20px;
   line-height: 24px;
   color: #000;
-}
-
-.resume-button {
-  width: 162px;
 }
 
 .language {
