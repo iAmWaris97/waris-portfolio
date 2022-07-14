@@ -27,10 +27,6 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-input:focus{
-  outline:none!important;
-}
-
 /* parent container */
 .container {
   background-color: #f7f7f9;
@@ -461,4 +457,8 @@ li.language {
 
 #submit {
   margin-top: 24px;
+}
+
+textarea:focus, input:focus{
+  outline:none;
 }
