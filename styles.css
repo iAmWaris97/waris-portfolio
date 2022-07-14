@@ -459,6 +459,7 @@ li.language {
   margin-top: 24px;
 }
 
-textarea:focus, input:focus{
-  outline:none;
+textarea:focus,
+input:focus {
+  outline: none;
 }
