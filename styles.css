@@ -350,7 +350,7 @@ li.language {
 .contact-wrap {
   width: 375px;
   height: 780px;
-  background: #6070FF;
+  background: #6070ff;
   background-image: url(./src/assets/img/contact-form\ back-mobile.svg);
   background-repeat: no-repeat;
   background-position: right;
@@ -394,6 +394,7 @@ li.language {
   display: flex;
   justify-content: center;
 }
+
 .contact-form {
   width: 100%;
   display: flex;
@@ -408,12 +409,12 @@ li.language {
   margin-top: 15px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  
 }
 
 #name,
-#email, #meesage{
-  font-family: 'Poppins';
+#email,
+#meesage {
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -421,6 +422,15 @@ li.language {
   color: #172b4d;
   padding: 0 15px;
   box-sizing: border-box;
+}
+
+#name::placeholder,
+#email::placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: min-content;
+  font-size: 14px;
 }
 
 #message {
@@ -431,7 +441,7 @@ li.language {
   font-size: 18px;
 }
 
-::placeholder {
+#message::placeholder {
   color: #b3bac5;
   font-style: normal;
   font-weight: 400;
