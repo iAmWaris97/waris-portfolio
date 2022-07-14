@@ -228,7 +228,7 @@ body {
 }
 
 .project-action button,
-.resume-button {
+.get-button {
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -244,25 +244,25 @@ body {
   cursor: pointer;
 }
 
-.resume-button {
+.get-button {
   width: 162px;
 }
 
 .project-action button:hover,
-.resume-button:hover {
+.get-button:hover {
   background: #6070ff;
   color: #fff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
 .project-action button:active,
-.resume-button:active {
+.get-button:active {
   background: #2230d2;
   color: #fff;
 }
 
 .project-action button:disabled,
-.resume-button:disabled {
+.get-button:disabled {
   background: #e5e5e5;
   color: #5e6c84;
   box-shadow: none;
@@ -340,4 +340,141 @@ li.language {
 
 .hide {
   display: none;
+}
+
+/* Contact section/ */
+.contact {
+  background-color: #fff;
+}
+
+.contact-wrap {
+  width: 375px;
+  height: 780px;
+  background: #6070ff;
+  background-image: url(./src/assets/img/contact-form\ back-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  border-top-left-radius: 100px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contact-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.contact-title {
+  height: 56px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+}
+
+.contact-text {
+  width: 327px;
+  height: 102px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin-top: 10px;
+}
+
+.form-wraper {
+  width: 327px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+.form-control {
+  width: 327px;
+  height: 48px;
+  background-color: #fff;
+  margin-top: 15px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
+
+#name,
+#email,
+#meesage {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #172b4d;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+#name::placeholder,
+#email::placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: min-content;
+  font-size: 14px;
+}
+
+#message {
+  resize: none;
+  height: 170px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+#message::placeholder {
+  color: #b3bac5;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  left: 16px;
+  right: 38px;
+  top: 15px;
+  bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#submit {
+  margin-top: 24px;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.form-btn:hover {
+  background-color: #1f4690;
+}
+
+.form-btn:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+.home-indicator {
+  width: 134px;
+  border-radius: 10px;
+  margin-top: 100px;
 }

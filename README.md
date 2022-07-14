@@ -2,9 +2,10 @@
 
 > My persnal portfolio project
 
-This is the third project as part of the Microverse first week projects!
-In this project I have made projects and about me sections of my portfolio mobile version using HTML/CSS.
-![Project Screenshot](./src/assets/img/screenshot-1.png "Portfolio Project")
+This is the fourth project as part of the Microverse portfolio project!
+In this project I have made contact form section of my portfolio mobile version using HTML/CSS.
+
+![Project Screenshot](./src/assets/img/contact-snapshoot.png "Portfolio Project")
 
 ## Built With
 
@@ -23,7 +24,7 @@ In this project I have made projects and about me sections of my portfolio mobil
 
 <code>git clone https://github.com/iAmWaris97/iAmWaris97-Portfolio</code> using your terminal or command line.
 
--Change to the project directory by entering :
+-Change to the project directory by entering:
 
 <code>cd iAmWaris97-Portfolio</code> in the terminal.
 
