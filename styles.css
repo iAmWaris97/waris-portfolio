@@ -27,6 +27,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+input:focus{
+  outline:none!important;
+}
+
 /* parent container */
 .container {
   background-color: #f7f7f9;
