@@ -463,3 +463,18 @@ textarea:focus,
 input:focus {
   outline: none;
 }
+
+.form-btn:hover {
+  background-color: #1f4690;
+}
+
+.form-btn:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+.home-indicator {
+  width: 134px;
+  border-radius: 10px;
+  margin-top: 100px;
+}
