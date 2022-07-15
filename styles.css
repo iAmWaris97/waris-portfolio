@@ -131,6 +131,10 @@ body {
   padding-bottom: 40px;
 }
 
+.snapshoot img:hover {
+  transform: scale(1.25);
+}
+
 .left-block {
   display: flex;
   flex-direction: column;
@@ -253,6 +257,7 @@ body {
   background: #6070ff;
   color: #fff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  transform: scale(1.1);
 }
 
 .project-action button:active,
@@ -348,7 +353,7 @@ li.language {
 }
 
 .contact-wrap {
-  width: 375px;
+  /* width: 375px; */
   height: 780px;
   background: #6070ff;
   background-image: url(./src/assets/img/contact-form\ back-mobile.svg);
@@ -478,3 +483,4 @@ input:focus {
   border-radius: 10px;
   margin-top: 100px;
 }
+
