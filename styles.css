@@ -23,14 +23,14 @@ ul {
 }
 
 body {
-  background-color: #eaf6f6;
+  width: 100%;
   font-family: 'Poppins', sans-serif;
 }
 
 /* parent container */
 .container {
+  width: 100%;
   background-color: #f7f7f9;
-  width: 375px;
   margin: 0 auto;
   height: fit-content;
 }
@@ -127,7 +127,6 @@ body {
   align-items: center;
   padding: 16px;
   gap: 12px;
-  width: 327px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -493,12 +492,8 @@ input:focus {
 
 /* Desktop version */
 @media screen and (min-width: 768px) {
-  html {
-    box-sizing: border-box;
-  }
-
   .container {
-    width: auto;
+    /* width: auto; */
   }
 
   .nav-toggler {
@@ -525,15 +520,11 @@ input:focus {
 
   /* headline section */
   .headline {
-    height: 100vh;
     background-image: url(./src/assets/img/desktop-head-back.svg);
     background-size: contain;
     justify-content: center;
     align-items: center;
-  }
-
-  .head-wraper {
-    margin-top: -120px;
+    padding: 250px 144px;
   }
 
   .head-primary {
@@ -561,11 +552,7 @@ input:focus {
   }
 
   .project-card {
-    width: auto;
-
-    /* height: 496px; */
     flex-direction: row;
-    align-items: center;
     box-sizing: border-box;
     padding-bottom: 16px;
   }
@@ -645,10 +632,6 @@ input:focus {
     width: 447px;
   }
 
-  .skills {
-    width: 684px;
-  }
-
   .about .head-primary {
     font-size: 40px;
     line-height: 52px;
@@ -723,5 +706,11 @@ input:focus {
 
   .home-indicator {
     display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .project-card {
+    flex-direction: column;
   }
 }
