@@ -65,6 +65,7 @@ body {
   background-color: #fff;
   background-image: url(./src/assets/img/headline-background.svg);
   background-repeat: no-repeat;
+  background-size: cover;
   border-bottom-left-radius: 110px 110px;
   display: flex;
   flex-direction: column;
@@ -74,7 +75,6 @@ body {
 }
 
 .head-primary {
-  width: 327px;
   height: 150px;
   font-style: normal;
   font-weight: 700;
@@ -87,7 +87,7 @@ body {
 }
 
 .head-intro {
-  width: 327px;
+  /* width: 327px; */
   height: 146px;
   font-style: normal;
   font-weight: 400;
@@ -309,7 +309,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 327px;
+
+  /* width: 327px; */
   height: 72px;
   border-bottom: #dfe1e6 1px solid;
 }
@@ -385,7 +386,7 @@ li.language {
 }
 
 .contact-text {
-  width: 327px;
+  /* width: 327px; */
   height: 102px;
   font-style: normal;
   font-weight: 400;
@@ -401,7 +402,7 @@ li.language {
 }
 
 .form-wraper {
-  width: 327px;
+  /* width: 327px; */
   display: flex;
   justify-content: center;
 }
@@ -414,7 +415,7 @@ li.language {
 }
 
 .form-control {
-  width: 327px;
+  /* width: 327px; */
   height: 48px;
   background-color: #fff;
   margin-top: 15px;
@@ -493,7 +494,7 @@ input:focus {
 /* Desktop version */
 @media screen and (min-width: 768px) {
   .container {
-    /* width: auto; */
+    width: auto;
   }
 
   .nav-toggler {
