@@ -3,9 +3,9 @@
 > My persnal portfolio project
 
 This is the fourth project as part of the Microverse portfolio project!
-In this project I have made contact form section of my portfolio mobile version using HTML/CSS.
+In this project I have made the Desktop version of my portfolio using HTML/CSS.
 
-![Project Screenshot](./src/assets/img/contact-snapshoot.png "Portfolio Project")
+![Project Screenshot](./src/assets/img/desktop-snapshooot.png "Portfolio Project")
 
 ## Built With
 
