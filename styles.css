@@ -565,6 +565,10 @@ input:focus {
     width: 250px;
   }
 
+  .nav-menu.active {
+    display: none;
+  }
+
   /* headline section */
   .headline {
     background-image: url(./src/assets/img/desktop-head-back.svg);
