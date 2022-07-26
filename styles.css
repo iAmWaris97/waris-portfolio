@@ -44,20 +44,32 @@ body {
   align-items: center;
 }
 
-.logo {
+.nav-branding {
   margin-left: 16px;
   padding: 8px;
   max-width: 5px;
   max-height: 5px;
 }
 
-.nav-toggler {
+.hamburger {
   margin-right: 16px;
   padding: 8px;
+  width: 18px;
+  height: 12px;
 }
 
-.menu-items {
+.nav-menu {
   display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: #6070ff;
 }
 
 /* headline container */
@@ -496,11 +508,11 @@ input:focus {
     width: auto;
   }
 
-  .nav-toggler {
+  .hamburger {
     display: none;
   }
 
-  .head {
+  header {
     width: 100%;
     background-color: #fff;
     position: fixed;
@@ -512,7 +524,7 @@ input:focus {
     margin-right: 150px;
   }
 
-  .menu-items {
+  .nav-menu {
     display: flex;
     justify-content: space-around;
     width: 250px;
