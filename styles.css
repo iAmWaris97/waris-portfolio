@@ -576,6 +576,44 @@ input:focus {
   position: absolute;
 }
 
+.popup-content .project-action button {
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 6px 10px;
+  width: 140px;
+  height: 40px;
+}
+
+.popup-content .project-action button img {
+  width: 13px;
+  height: 13px;
+}
+
+.pop-2.active .project-title,
+.pop-4.active .project-title {
+  height: 150px;
+  justify-content: space-around;
+}
+
+.test {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close1 button,
+.close2 button,
+.close3 button,
+.close4 button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
 /* Desktop version */
 @media screen and (min-width: 768px) {
   .container {
