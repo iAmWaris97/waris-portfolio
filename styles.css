@@ -835,6 +835,54 @@ input:focus {
   .home-indicator {
     display: none;
   }
+
+  /* popup style ---------------------------------------------------*/
+  .popup-content {
+    width: 60%;
+    padding-bottom: 100px;
+  }
+
+  .pop-top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .pop-top .project-title {
+    width: 100%;
+  }
+
+  .pop-top .snapshoot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .pop-top .snapshoot img {
+    width: 100%;
+    height: auto;
+  }
+
+  .pop-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .popup-content .project-action button {
+    padding: 0;
+    width: 120px;
+    height: 35px;
+  }
+
+  .pop-2.active .project-title,
+  .pop-4.active .project-title {
+    height: 100px;
+    justify-content: space-around;
+  }
 }
 
 @media screen and (max-width: 1200px) {
