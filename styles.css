@@ -311,6 +311,15 @@ body {
   width: 162px;
 }
 
+.close1 button,
+.close2 button,
+.close3 button,
+.close4 button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
 .project-action button:hover,
 .get-button:hover {
   background: #6070ff;
@@ -605,15 +614,6 @@ input:focus {
   align-items: center;
 }
 
-.close1 button,
-.close2 button,
-.close3 button,
-.close4 button {
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
 /* Desktop version */
 @media screen and (min-width: 768px) {
   .container {
@@ -836,7 +836,7 @@ input:focus {
     display: none;
   }
 
-  /* popup style ---------------------------------------------------*/
+  /* popup style --------------------------------------------------- */
   .popup-content {
     width: 60%;
     padding-bottom: 100px;
