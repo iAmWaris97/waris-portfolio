@@ -272,9 +272,9 @@ body {
   gap: 8px;
 }
 
-.html,
-.css,
-.javascript {
+.lang1,
+.lang2,
+.lang3 {
   background: #ebebff;
   border-radius: 8px;
   padding: 4px 12px;
@@ -309,6 +309,12 @@ body {
 
 .get-button {
   width: 162px;
+}
+
+.close button {
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 .project-action button:hover,
@@ -537,6 +543,91 @@ input:focus {
   margin-top: 30px;
 }
 
+/* popup mobile */
+.pop-up {
+  display: none;
+}
+
+.pop-up.active {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(193, 199, 208, 0.7);
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 16px 0;
+  position: fixed;
+  overflow-y: auto;
+  top: 0;
+  left: 0;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fff;
+  width: 343px;
+  height: max-content;
+  box-sizing: border-box;
+  padding: 16px;
+  gap: 12px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  position: absolute;
+}
+
+.popup-content .project-action button {
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 6px 10px;
+  width: 140px;
+  height: 40px;
+}
+
+.popup-content .project-action button:hover {
+  color: #fff;
+}
+
+.popup-content .project-action button a:hover {
+  color: #fff;
+}
+
+.popup-content .project-action button img {
+  width: 13px;
+  height: 13px;
+}
+
+.test {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a#see-live,
+a#see-source {
+  box-sizing: border-box;
+  padding: 8px 12px;
+  gap: 12px;
+  width: 343px;
+  height: 713px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+a#see-live:hover,
+a#see-source:hover {
+  background-color: #f7f7f9;
+  color: red;
+}
+
 /* Desktop version */
 @media screen and (min-width: 768px) {
   .container {
@@ -757,6 +848,54 @@ input:focus {
 
   .home-indicator {
     display: none;
+  }
+
+  /* popup style --------------------------------------------------- */
+  .popup-content {
+    width: 60%;
+    padding-bottom: 100px;
+  }
+
+  .pop-top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .pop-top .project-title {
+    width: 100%;
+  }
+
+  .pop-top .snapshoot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .pop-top .snapshoot img {
+    width: 100%;
+    height: auto;
+  }
+
+  .pop-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .popup-content .project-action button {
+    padding: 0;
+    width: 120px;
+    height: 35px;
+  }
+
+  .pop-2.active .project-title,
+  .pop-4.active .project-title {
+    height: 100px;
+    justify-content: space-around;
   }
 }
 
