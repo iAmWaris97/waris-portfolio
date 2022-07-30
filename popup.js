@@ -76,8 +76,8 @@ function fillPopUp(arr, num) {
   lang1.textContent = proj.lang1;
   lang2.textContent = proj.lang2;
   lang3.textContent = proj.lang3;
-  link1.setAttribute("href", proj.link1);
-  link2.setAttribute("href", proj.link2);
+  link1.setAttribute('href', proj.link1);
+  link2.setAttribute('href', proj.link2);
 }
 
 seeButton.addEventListener('click', () => {

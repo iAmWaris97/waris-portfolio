@@ -311,10 +311,7 @@ body {
   width: 162px;
 }
 
-.close1 button,
-.close2 button,
-.close3 button,
-.close4 button {
+.close button {
   background: none;
   border: none;
   cursor: pointer;
@@ -613,14 +610,22 @@ input:focus {
   align-items: center;
 }
 
-.close button {
-  background: none;
-  border: none;
-  cursor: pointer;
+a#see-live,
+a#see-source {
+  box-sizing: border-box;
+  padding: 8px 12px;
+  gap: 12px;
+  width: 343px;
+  height: 713px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
 }
 
-button a {
-  color: #396df2;
+a#see-live:hover,
+a#see-source:hover {
+  background-color: #f7f7f9;
+  color: red;
 }
 
 /* Desktop version */
