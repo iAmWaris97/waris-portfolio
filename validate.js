@@ -14,9 +14,9 @@ function checkEmail(input) {
     errorMessage.innerText = 'Thank you! We will get back to you soon!';
     errorMessage.className = 'alert success';
     setTimeout(() => {
-        form.submit();
-      },
-      5000);
+      form.submit();
+    },
+    5000);
   }
   return true;
 }
