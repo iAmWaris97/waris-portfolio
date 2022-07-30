@@ -537,7 +537,8 @@ input:focus {
   color: #fff;
 }
 
-.error, .alert{
+.error,
+.alert {
   font-size: large;
   background-color: #0413b1;
   border-radius: 5px;
