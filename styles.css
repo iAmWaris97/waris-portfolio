@@ -537,6 +537,22 @@ input:focus {
   color: #fff;
 }
 
+.error,
+.alert {
+  font-size: large;
+  background-color: #0413b1;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+}
+
+.error:hover {
+  background-color: red;
+  transform: scale(1.1);
+}
+
 .home-indicator {
   width: 134px;
   border-radius: 10px;

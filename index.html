@@ -367,6 +367,7 @@
             <label for="message" class="hide">Message</label>
             <textarea class="form-control" name="message" id="message" placeholder="Write your message here"
               maxlength="500" required></textarea>
+            <span class="error" aria-live="polite"></span>
             <button type="submit" class="get-button form-btn" id="submit">Get in Touch</button>
           </form>
         </div>
@@ -410,9 +411,10 @@
               </ul>
             </div>
             <div class="project-action">
-                <a href="" id="see-live" target="_blank">See Live <img src="./src/assets/img/live-icon.svg" alt=""></a>
+              <a href="" id="see-live" target="_blank">See Live <img src="./src/assets/img/live-icon.svg" alt=""></a>
 
-                <a href="" id="see-source" target="_blank">See Source <img src="./src/assets/img/live-icon.svg" alt=""></a>
+              <a href="" id="see-source" target="_blank">See Source <img src="./src/assets/img/live-icon.svg"
+                  alt=""></a>
             </div>
           </div>
         </div>
@@ -421,6 +423,7 @@
   </div>
   <script src="index.js"></script>
   <script src="popup.js"></script>
+  <script src="validate.js"></script>
 </body>
 
 </html>
