@@ -548,6 +548,11 @@ input:focus {
   text-align: center;
 }
 
+.error:hover {
+  background-color: red;
+  transform: scale(1.1);
+}
+
 .home-indicator {
   width: 134px;
   border-radius: 10px;
