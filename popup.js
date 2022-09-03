@@ -17,14 +17,14 @@ const seeButton3 = document.querySelector('.see-pro4');
 const projArr = [
   {
     id: 0,
-    projTitle: 'Tonic',
-    projDetails: 'Canopy &nbsp; &bull; &nbsp; Back End Dev &nbsp;&bullet;&nbsp; 2022',
-    projPic: './src/assets/img/project-1.svg',
+    projTitle: 'iAmWaris Consultancy',
+    projDetails: 'iAmWaris &nbsp; &bull; &nbsp; Front End Dev &nbsp;&bullet;&nbsp; 2022',
+    projPic: './src/assets/img/consultancy-snapshot.png',
     proInfo: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     lang1: 'HTML',
     lang2: 'CSS',
     lang3: 'JavaScript',
-    link1: 'https://github.com/iAmWaris97/iAmWaris97-Portfolio',
+    link1: 'https://iamwaris97.github.io/iAmWaris-Consultancy/',
     link2: 'https://github.com/iAmWaris97/iAmWaris97-Portfolio',
   },
 
