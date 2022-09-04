@@ -190,6 +190,10 @@ body {
   height: 48px;
 }
 
+.first-card .snapshoot img {
+  max-width: 300px;
+}
+
 .snapshoot img:hover {
   transform: scale(1.25);
 }
@@ -619,6 +623,10 @@ input:focus {
   height: 13px;
 }
 
+.projPic {
+  max-width: 300px;
+}
+
 .test {
   width: 100%;
   display: flex;
@@ -716,8 +724,8 @@ a#see-source:hover {
   }
 
   .snapshoot img {
-    width: 544px;
-    height: 448px;
+    width: auto;
+    height: auto;
   }
 
   .skills img {
