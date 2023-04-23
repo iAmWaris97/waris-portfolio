@@ -29,4 +29,17 @@ window.onload = () => {
       icon.classList.add('fa-solid', 'fa-angle-down');
     });
   });
+
+  barMenu.addEventListener('click', () => {
+    popUp.classList.remove('hidden');
+  });
+
+  close.addEventListener('click', () => {
+    popUp.classList.remove('hidden');
+  });
+
+  menu.addEventListener('click', () => {
+    popUp.classList.add('hidden');
+  });
+
 };
