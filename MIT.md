@@ -1,4 +1,4 @@
-Copyright 2022, Waris Haleem
+Copyright 2023, Waris Haleem
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this Web App and associated documentation files, to deal in the Web App without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Web App, and to permit persons to whom the Web App is furnished to do so, subject to the following conditions:
 
