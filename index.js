@@ -42,4 +42,55 @@ window.onload = () => {
     popUp.classList.add('hidden');
   });
 
+  const projectsData = [
+    {
+      title: 'Private Investigators',
+      subtitle: 'Find the Truth, Book a P.I.',
+      techStack: 'Full Stack Dev',
+      year: 2023,
+      src: './src/assets/img/projects/investigators.png',
+      highlight: 'An app that allows users to reserve a private investigator for their case. An app that allows users to reserve a private investigator for their case.',
+      description: 'Private Investigators is a unique project that is designed to provide users with a seamless experience of booking appointments with licensed investigators. The project is built using React as a front-end and Rails API app as a back-end. With the help of authentication rules embedded in the app, users can easily book appointments with a licensed private investigator.',
+      lang: ['Ruby on Rails', 'PostgreSql', 'JWT', 'React', 'Redux', 'Netlify'],
+      live: 'https://something.netlify.app/',
+      source: 'https://github.com/iAmWaris97/investigators-frontend',
+    },
+    {
+      title: 'Private Investigators',
+      subtitle: 'Find the Truth, Book a P.I.',
+      techStack: 'Full Stack Dev',
+      year: 2023,
+      src: './src/assets/img/projects/investigators.png',
+      highlight: 'An app that allows users to reserve a private investigator for their case. An app that allows users to reserve a private investigator for their case.',
+      description: 'Private Investigators is a unique project that is designed to provide users with a seamless experience of booking appointments with licensed investigators. The project is built using React as a front-end and Rails API app as a back-end. With the help of authentication rules embedded in the app, users can easily book appointments with a licensed private investigator.',
+      lang: ['Ruby on Rails', 'PostgreSql', 'JWT', 'React', 'Redux', 'Netlify'],
+      live: 'https://something.netlify.app/',
+      source: 'https://github.com/iAmWaris97/investigators-frontend',
+    },
+    {
+      title: 'Private Investigators',
+      subtitle: 'Find the Truth, Book a P.I.',
+      techStack: 'Full Stack Dev',
+      year: 2023,
+      src: './src/assets/img/projects/investigators.png',
+      highlight: 'An app that allows users to reserve a private investigator for their case. An app that allows users to reserve a private investigator for their case.',
+      description: 'Private Investigators is a unique project that is designed to provide users with a seamless experience of booking appointments with licensed investigators. The project is built using React as a front-end and Rails API app as a back-end. With the help of authentication rules embedded in the app, users can easily book appointments with a licensed private investigator.',
+      lang: ['Ruby on Rails', 'PostgreSql', 'JWT', 'React', 'Redux', 'Netlify'],
+      live: 'https://something.netlify.app/',
+      source: 'https://github.com/iAmWaris97/investigators-frontend',
+    },
+    {
+      title: 'Private Investigators',
+      subtitle: 'Find the Truth, Book a P.I.',
+      techStack: 'Full Stack Dev',
+      year: 2023,
+      src: './src/assets/img/projects/investigators.png',
+      highlight: 'An app that allows users to reserve a private investigator for their case. An app that allows users to reserve a private investigator for their case.',
+      description: 'Private Investigators is a unique project that is designed to provide users with a seamless experience of booking appointments with licensed investigators. The project is built using React as a front-end and Rails API app as a back-end. With the help of authentication rules embedded in the app, users can easily book appointments with a licensed private investigator.',
+      lang: ['Ruby on Rails', 'PostgreSql', 'JWT', 'React', 'Redux', 'Netlify'],
+      live: 'https://something.netlify.app/',
+      source: 'https://github.com/iAmWaris97/investigators-frontend',
+    },
+  ];
+
 };
