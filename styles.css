@@ -399,7 +399,7 @@ main {
 
 .inner-card:hover {
   cursor: text;
-  border: 1px solid #6070ff82;
+  border: 3px solid #6070ff82;
   transition: all 0.4s ease;
   transform: scale(1.012);
   background: white;
@@ -842,7 +842,7 @@ main {
   display: flex;
   flex-direction: column;
   background-color: white;
-  border: 5px solid #dfe1e6;
+  border: 3px solid #9db3e9;
   border-radius: 1em;
   position: fixed;
   top: 1em;
@@ -1029,6 +1029,10 @@ form > * {
     display: none;
   }
 
+  .close:hover{
+    display: none;
+  }
+
   .hidden {
     display: flex !important;
   }
@@ -1210,7 +1214,7 @@ form > * {
 
   .project-popup {
     width: 65vw;
-    padding: 0.5em 1em;
+    /* padding: 0.5em 1em; */
   }
 
   .about-content {
