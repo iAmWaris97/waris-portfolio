@@ -5,7 +5,7 @@
 This is the fourth project as part of the Microverse portfolio project!
 In this project I have made the Desktop version of my portfolio using HTML/CSS.
 
-![Project Screenshot](./src/assets/img/desktop-snapshooot.png "Portfolio Project")
+![Project Screenshot](./src/assets/img/desktop-snapshoot.png "Portfolio Project")
 
 ## Built With
 
@@ -14,7 +14,7 @@ In this project I have made the Desktop version of my portfolio using HTML/CSS.
 
 ## Live Demo
 
-[Live Demo Link](https://iamwaris97.github.io/iAmWaris97-Portfolio/)
+[Live Demo Link](https://iamwaris97.github.io/waris-portfolio/)
 
 ## Getting Started
 
@@ -22,7 +22,7 @@ In this project I have made the Desktop version of my portfolio using HTML/CSS.
 
 -Clone this repository with
 
-<code>git clone https://github.com/iAmWaris97/iAmWaris97-Portfolio</code> using your terminal or command line.
+<code>git clone https://github.com/iAmWaris97/waris-portfolio</code> using your terminal or command line.
 
 -Change to the project directory by entering:
 
@@ -44,7 +44,7 @@ In this project I have made the Desktop version of my portfolio using HTML/CSS.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/iAmWaris97/iAmWaris97-Portfolio/issues).
+Feel free to check the [issues page](https://github.com/iAmWaris97/waris-portfolio/issues).
 
 ## Show your support
 

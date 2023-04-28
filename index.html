@@ -5,425 +5,288 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>iAmWaris97 | Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-    rel="stylesheet">
-
-  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/4a30d59e86.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="./styles.css">
+  <title>iAmWaris | Portfolio</title>
 </head>
 
 <body>
   <!-- parent container -->
-  <div class="container">
+  <div id="body-wrapper">
 
     <!-- navbar -->
     <header>
-      <nav class="navbar">
-        <a href="#home" class="nav-branding"><img src="./src/assets/img/my-logo.svg" alt="logo"></a>
-
-        <ul class="nav-menu">
-          <li class="nav-item item1">
-            <a href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item item2">
-            <a href="#about">About</a>
-          </li>
-          <li class="nav-item item3">
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-
-        <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-      </nav>
-      <div class="overlay"></div>
+      <div class="top-bar">
+        <a href="#" class="logo">iAmWaris</a>
+        <nav class="nav-bar">
+          <ul class="bar-menu">
+            <li><i class="fa-solid fa-bars"></i></li>
+          </ul>
+          <ul class="menu pop-up hidden">
+            <li><i class="fa-solid fa-xmark close"></i></li>
+            <li><a href="#about" class="menu-item">About</a></li>
+            <li><a href="#portfolio" class="menu-item">Portfolio</a></li>
+            <li><a href="#contact" class="menu-item">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <!-- headline container -->
-    <section class="headline" id="home">
-      <div class="head-wraper">
-        <h1 class="head-primary">
-          iAmWaris97 <br> Glad to see you!
-        </h1>
+    <!-- main content -->
+    <main>
+      <section class="headline">
+        <div>
+          <h1 class="headline-text drop-in">
+            iAmWaris.<br />
+            Crafting Engaging Web Solutions!
+          </h1>
+          <h2 class="supporting-text drop-in-1">
+            With a comprehensive methodology that harnesses the potential of technology, I am a <strong>full-stack developer</strong> who is adept at troubleshooting and committed to crafting flawless user experiences. Let me help you realize your vision by bringing your project to fruition, whether it's creating a feature, product, or website.
+          </h2>
+          <button type="button" class="connect drop-in-2">LET'S CONNECT</button>
 
-        <p class="head-intro">I’m a software developer! I can help you build a product , feature or website Look
-          through some of my work and experience! If you like what you see and have a project you need coded, don’t
-          hestiate to contact me.
-        </p>
+          <ul class="social-icons drop-in-3">
+            <li class="icon twitter">
+              <span class="tooltip">Twitter</span>
+              <a class="icons" href="https://twitter.com/iAmWaris97" target="_blank" rel="noopener">
+                <i class="fa-brands fa-twitter twitter" aria-hidden="true">
+                </i>
+                <span class="fa-sr-only">Twitter</span>
+              </a>
+            </li>
+            <li class="icon linkedin">
+              <span class="tooltip">LinkedIn</span>
+              <a class="icons" href="https://www.linkedin.com/in/waris-haleem/" target="_blank" rel="noopener">
+                <i class="fa-brands fa-linkedin-in" aria-hidden="true">
+                </i>
+                <span class="fa-sr-only">LinkedIn</span>
+              </a>
+            </li>
+            <li class="icon mail">
+              <span class="tooltip">Gmail</span>
+              <a class="icons" href="mailto:haleem.waris@gmail.com" target="_blank" rel="noopener">
+                <i class="fa-solid fa-m" aria-hidden="true">
+                </i>
+                <span class="fa-sr-only">Gmail</span>
+              </a>
+            </li>
+            <li class="icon github">
+              <span class="tooltip">GitHub</span>
+              <a class="icons" href="https://github.com/iamwaris97" target="_blank" rel="noopener">
+                <i class="fa-brands fa-github" aria-hidden="true">
+                </i>
+                <span class="fa-sr-only">GitHub</span>
+              </a>
+            </li>
+            <li class="icon wellfound">
+              <span class="tooltip">WellFound</span>
+              <a class="icons" href="https://wellfound.com/u/waris-haleem" target="_blank" rel="noopener">
+                <i class="fa-brands fa-angellist" aria-hidden="true">
+                </i>
+                <span class="fa-sr-only">Angellist</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-        <div class="social-media">
-          <div class="connect">
-            <h3 class="lets-connect">LET’S CONNECT</h3>
-          </div>
+      <div class="recent-work" id="portfolio"></div>
+      <div class="project-popup-container"></div>
 
-          <!-- social media links -->
-          <div class="links">
-            <ul class="social-links">
-              <li>
-                <a class="social-link" href="#twitter">
-                  <img src="./src/assets/img/twitter-icon.svg" alt="twitter icon">
+      <section class="about" id="about">
+        <div>
+          <div class="about-content">
+            <h2 class="headline-text about-title">About Me</h2>
+            <p class="supporting-text about-description">
+              As a versatile full-stack developer, I am adept at crafting exceptional products, features, and websites
+              tailored to your exact needs. I invite you to explore my portfolio showcasing my vast expertise and
+              experience in the field. Should you find my work impressive and require my coding proficiency for your
+              dream project, please do not hesitate to contact me. I look forward to bringing your unique ideas to life!
+            </p>
+
+            <button type="button" class="connect">LET'S CONNECT</button>
+
+            <ul class="social-icons">
+              <li class="icon twitter">
+                <span class="tooltip">Twitter</span>
+                <a class="icons" href="https://twitter.com/iAmWaris97" target="_blank" rel="noopener">
+                  <i class="fa-brands fa-twitter twitter" aria-hidden="true">
+                  </i>
+                  <span class="fa-sr-only">Twitter</span>
                 </a>
               </li>
-              <li>
-                <a class="social-link" href="#linkedin">
-                  <img src="./src/assets/img/linkedin-icon.svg" alt="linkedin icon">
+              <li class="icon linkedin">
+                <span class="tooltip">LinkedIn</span>
+                <a class="icons" href="https://www.linkedin.com/in/waris-haleem" target="_blank" rel="noopener">
+                  <i class="fa-brands fa-linkedin-in" aria-hidden="true">
+                  </i>
+                  <span class="fa-sr-only">LinkedIn</span>
                 </a>
               </li>
-              <li>
-                <a class="social-link" href="#medium">
-                  <img src="./src/assets/img/medium-icon.svg" alt="medium icon">
+              <li class="icon mail">
+                <span class="tooltip">Gmail</span>
+                <a class="icons" href="mailto:haleem.waris@gmail.com" target="_blank" rel="noopener">
+                  <i class="fa-solid fa-m" aria-hidden="true">
+                  </i>
+                  <span class="fa-sr-only">Gmail</span>
                 </a>
               </li>
-              <li>
-                <a class="social-link" href="#github">
-                  <img src="./src/assets/img/github-icon.svg" alt="GitHub icon">
+              <li class="icon github">
+                <span class="tooltip">GitHub</span>
+                <a class="icons" href="https://github.com/iAmWaris97" target="_blank" rel="noopener">
+                  <i class="fa-brands fa-github" aria-hidden="true">
+                  </i>
+                  <span class="fa-sr-only">GitHub</span>
                 </a>
               </li>
-              <li>
-                <a class="social-link" href="#peace">
-                  <img src="./src/assets/img/peace.svg" alt="peace icon">
+              <li class="icon wellfound">
+                <span class="tooltip">WellFound</span>
+                <a class="icons" href="https://wellfound.com/u/waris-haleem" target="_blank" rel="noopener">
+                  <i class="fa-brands fa-angellist" aria-hidden="true">
+                  </i>
+                  <span class="fa-sr-only">Angellist</span>
                 </a>
               </li>
             </ul>
+
+            <a href="./src/assets/Docs/Resume.pdf" target="_blank" rel="noopener noreferrer"
+              class="resume-btn button">Get my resume</a>
           </div>
 
-        </div>
-      </div>
-    </section>
-
-    <!-- Projects section -->
-    <section class="projects" id="portfolio">
-      <h1 class="hide">Projects</h1>
-      <!-- first card -->
-      <div class="project-card first-card">
-        <div class="snapshoot">
-          <img src="./src/assets/img/consultancy-snapshot.PNG" alt="first project snapshoot">
-        </div>
-
-        <div class="left-block">
-
-          <div class="project-title">
-            <div class="title">
-              <p>iAmWaris Consultancy</p>
-            </div>
-            <div class="frame">
-              <ul>
-                <li class="client">iAmWaris</li>
-                <li><img src="./src/assets/img/counter.svg" alt="list items separator"></li>
-                <li class="role">Front End Dev</li>
-                <li><img src="./src/assets/img/counter.svg" alt="list items separator"></li>
-                <li class="year">2022</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="project-info">
-            <p class="info">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-          </div>
-
-          <div class="project-tags">
+          <div class="skills">
             <ul>
-              <li class="html">HTML</li>
-              <li class="css">CSS</li>
-              <li class="javascript">JavaScript</li>
-            </ul>
-          </div>
-          <div class="project-action">
-            <button type="button" class="see-pro1">See Project</button>
-          </div>
-        </div>
-      </div>
-
-      <!-- second card -->
-      <div class="project-card second-card">
-        <div class="snapshoot">
-          <img src="./src/assets/img/project-2.svg" alt="secondd project snapshoot">
-        </div>
-
-        <div class="left-block">
-
-          <div class="project-title">
-            <div class="title">
-              <p>Multi-Post <br> Stories</p>
-            </div>
-            <div class="frame">
-              <ul>
-                <li class="client">CANOPY</li>
-                <li><img src="./src/assets/img/counter.svg" alt="list items separator"></li>
-                <li class="role">Back End Dev</li>
-                <li><img src="./src/assets/img/counter.svg" alt="list items separator"></li>
-                <li class="year">2022</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="project-info">
-            <p class="info">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-          </div>
-
-          <div class="project-tags">
-            <ul>
-              <li class="html">HTML</li>
-              <li class="css">CSS</li>
-              <li class="javascript">JavaScript</li>
-            </ul>
-          </div>
-          <div class="project-action">
-            <button type="button" class="see-pro2">See Project</button>
-          </div>
-        </div>
-      </div>
-
-      <!-- third card -->
-      <div class="project-card third-card">
-        <div class="snapshoot">
-          <img src="./src/assets/img/project-3.svg" alt="third project snapshoot">
-        </div>
-
-        <div class="left-block">
-
-          <div class="project-title">
-            <div class="title">
-              <p>Tonic</p>
-            </div>
-            <div class="frame">
-              <ul>
-                <li class="client">CANOPY</li>
-                <li><img src="./src/assets/img/counter.svg" alt="list items separator"></li>
-                <li class="role">Back End Dev</li>
-                <li><img src="./src/assets/img/counter.svg" alt="list items separator"></li>
-                <li class="year">2022</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="project-info">
-            <p class="info">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-          </div>
-
-          <div class="project-tags">
-            <ul>
-              <li class="html">HTML</li>
-              <li class="css">CSS</li>
-              <li class="javascript">JavaScript</li>
-            </ul>
-          </div>
-          <div class="project-action">
-            <button type="button" class="see-pro3">See Project</button>
-          </div>
-        </div>
-      </div>
-
-      <!-- fourth card -->
-      <div class="project-card fourth-card">
-        <div class="snapshoot">
-          <img src="./src/assets/img/project-4.svg" alt="fourth project snapshoot">
-        </div>
-
-        <div class="left-block">
-
-          <div class="project-title">
-            <div class="title">
-              <p>Multi-Post <br> Stories</p>
-            </div>
-            <div class="frame">
-              <ul>
-                <li class="client">CANOPY</li>
-                <li><img src="./src/assets/img/counter.svg" alt="list items separator"></li>
-                <li class="role">Back End Dev</li>
-                <li><img src="./src/assets/img/counter.svg" alt="list items separator"></li>
-                <li class="year">2022</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="project-info">
-            <p class="info">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-          </div>
-
-          <div class="project-tags">
-            <ul>
-              <li class="tag html">HTML</li>
-              <li class="css">CSS</li>
-              <li class="javascript">JavaScript</li>
-            </ul>
-          </div>
-          <div class="project-action">
-            <button type="button" class="see-pro4">See Project</button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- About me -->
-    <section class="about" id="about">
-
-      <div class="top">
-        <h1 class="head-primary">
-          About <br> Myself
-        </h1>
-
-        <p class="head-intro">Hello I’m a software developer! I can help you build a product , feature or website Look
-          through some of my work and experience! If you like what you see and have a project you need coded, don’t
-          hestiate to contact me.
-        </p>
-
-        <div class="social-media">
-          <div class="connect">
-            <h3 class="lets-connect">LET’S CONNECT</h3>
-          </div>
-
-          <!-- social media links -->
-          <div class="links">
-            <ul class="social-links">
-              <li>
-                <a class="social-link" href="#twitter">
-                  <img src="./src/assets/img/twitter-icon.svg" alt="twitter">
-                </a>
+              <li class="skill-item active">
+                <div class="item-1-header">
+                  Languages <i class="fa-solid fa-angle-down down arrow"></i>
+                </div>
+                <div class="item-1-list">
+                  <ul>
+                    <li class="fly-in-1">
+                      <img src="./src/assets/img/languages/HTML.svg" alt="HTML" />
+                      HTML
+                    </li>
+                    <li class="fly-in-2">
+                      <img src="./src/assets/img/languages/CSS.svg" alt="CSS" />
+                      CSS
+                    </li>
+                    <li class="fly-in-3">
+                      <img src="./src/assets/img/languages/JavaScript.svg" alt="JavaScript" />
+                      JavaScript
+                    </li>
+                    <li class="fly-in-4">
+                      <img src="./src/assets/img/languages/MySQL.png" alt="MySQL" />
+                      MySQL
+                    </li>
+                    <li class="fly-in-5">
+                      <img src="./src/assets/img/languages/PostgreSQL.png" alt="PostgreSQL" />
+                      PostgreSQL
+                    </li>
+                    <li class="fly-in-6">
+                      <img src="./src/assets/img/languages/Ruby.svg" alt="Ruby" />
+                      Ruby
+                    </li>
+                  </ul>
+                </div>
               </li>
-              <li>
-                <a class="social-link" href="#linkedin">
-                  <img src="./src/assets/img/linkedin-icon.svg" alt="linkedin icon">
-                </a>
+              <li class="skill-item">
+                <div class="item-1-header">
+                  Frameworks <i class="fa-solid fa-angle-right next arrow"></i>
+                </div>
+                <div class="item-1-list">
+                  <ul>
+                    <li class="fly-in-1">
+                      <img src="./src/assets/img/frameworks/React.svg" alt="React" />
+                      React
+                    </li>
+                    <li class="fly-in-2">
+                      <img src="./src/assets/img/frameworks/Redux.svg" alt="Redux" />
+                      Redux
+                    </li>
+                    <li class="fly-in-3">
+                      <img src="./src/assets/img/frameworks/Rails.svg" alt="Ruby on Rails" />
+                      Rails
+                    </li>
+                    <li class="fly-in-4">
+                      <img src="./src/assets/img/frameworks/Node.svg" alt="Node" />
+                      Node
+                    </li>
+                    <li class="fly-in-5">
+                      <img src="./src/assets/img/frameworks/Express.svg" alt="Express" />
+                      Express
+                    </li>
+                    <li class="fly-in-6">
+                      <img src="./src/assets/img/frameworks/Bootstrap.svg" alt="Bootstrap" />
+                      Bootstrap
+                    </li>
+                  </ul>
+                </div>
               </li>
-              <li>
-                <a class="social-link" href="#medium">
-                  <img src="./src/assets/img/medium-icon.svg" alt="medium icon">
-                </a>
-              </li>
-              <li>
-                <a class="social-link" href="#github">
-                  <img src="./src/assets/img/github-icon.svg" alt="GitHub icon">
-                </a>
-              </li>
-              <li>
-                <a class="social-link" href="#peace">
-                  <img src="./src/assets/img/peace.svg" alt="peace icon">
-                </a>
+              <li class="skill-item">
+                <div class="item-1-header">
+                  Skills <i class="fa-solid fa-angle-right next arrow"></i>
+                </div>
+                <div class="item-1-list">
+                  <ul>
+                    <li class="fly-in-1">
+                      <img src="./src/assets/img/skills/GitHub.svg" alt="GitHub" />
+                      GitHub
+                    </li>
+                    <li class="fly-in-2">
+                      <img src="./src/assets/img/skills/GitLab.svg" alt="GitLab" />
+                      GitLab
+                    </li>
+                    <li class="fly-in-3">
+                      <img src="./src/assets/img/skills/Teamwork.png" alt="Teamwork" />
+                      Teamwork
+                    </li>
+                    <li class="fly-in-4">
+                      <img src="./src/assets/img/skills/Mentoring.png" alt="Mentoring" />
+                      Mentoring
+                    </li>
+                    <li class="fly-in-5">
+                      <img src="./src/assets/img/skills/Analytical.png" alt="Analytical" />
+                      Analytical
+                    </li>
+                  </ul>
+                </div>
               </li>
             </ul>
           </div>
         </div>
-        <button class="get-button" type="button">Get my resume</button>
+      </section>
+    </main>
 
-      </div>
-
-      <div class="skills">
-        <ul class="skills-list">
-          <li class="languages skill">
-            <p>Languages</p>
-            <img src="./src/assets/img/arrow-down.svg" alt="toggle languages">
-          </li>
-          <li class="language">
-            <img src="./src/assets/img/js-icon.svg" alt="javascript icon">
-            <p>JavaScript</p>
-          </li>
-          <li class="language">
-            <img src="./src/assets/img/html-icon.svg" alt="html icon">
-            <p>HTML</p>
-          </li>
-          <li class="language">
-            <img src="./src/assets/img/css-icon.svg" alt="css icon">
-            <p>CSS</p>
-          </li>
-          <li class="frameworks skill">
-            <p>Frameworks</p>
-            <img src="./src/assets/img/arrow-right.svg" alt="toggle frameworks">
-          </li>
-          <li class="other-skills skill">
-            <p>Skills</p>
-            <img src="./src/assets/img/arrow-right.svg" alt="toggle skills">
-          </li>
-        </ul>
-      </div>
-
-    </section>
-    <footer class="contact" id="contact">
-      <div class="contact-wrap">
-        <div class="contact-intro">
-          <h2 class="contact-title">Contact me</h2>
-          <p class="contact-text">
-            If you have an application you are interested in developing, a feature that you need built or a project that
-            needs coding. I’d love to help with it
-          </p>
+    <footer id="contact">
+      <section class="contact-form">
+        <div class="contact-wrapper">
+          <div>
+            <h2 class="contact-title">Contact me</h2>
+            <p class="contact-description">
+              If you have an interesting project in mind, I'd love to hear from you! Reach out to me and we can start discussing your ideas today. Don't hesitate to get in touch - let's collaborate and see where our creativity can take us.
+            </p>
+            <form action="https://formspree.io/f/xrgjwwkj" method="post" id="form">
+              <label hidden for="name"> Name </label>
+              <input type="text" id="name" name="name" maxlength="30" placeholder="Your name" required />
+              <label hidden for="email"> Email</label>
+              <input type="email" name="email" id="email" placeholder="Your email" required />
+              <label hidden for="message"> Your message</label>
+              <textarea name="message" id="message" maxlength="500" placeholder="Your message"
+                required></textarea>
+              <button type="submit" class="form-btn button">
+                Get In Touch
+              </button>
+              <span class="message"></span>
+            </form>
+          </div>
         </div>
-
-        <!-- contact form -->
-        <div class="form-wraper">
-          <form action="https://formspree.io/f/xrgjwwkj" class="contact-form" method="post">
-            <label for="name" class="hide">Name</label>
-            <input class="form-control" type="text" name="name" id="name" maxlength="30" placeholder="Enter your name"
-              required>
-            <label for="email" class="hide">Email</label>
-            <input class="form-control" type="email" name="email" id="email" placeholder="Enter your email" required>
-            <label for="message" class="hide">Message</label>
-            <textarea class="form-control" name="message" id="message" placeholder="Write your message here"
-              maxlength="500" required></textarea>
-            <span class="error" aria-live="polite"></span>
-            <button type="submit" class="get-button form-btn" id="submit">Get in Touch</button>
-          </form>
-        </div>
-        <div class="home-indicator">
-          <a href="#home"><img src="./src/assets/img/home-indicator.svg" alt="home indicator"></a>
-        </div>
-      </div>
+      </section>
     </footer>
 
-    <!-- My PopUp -->
-    <div class="pop-up">
-      <div class="popup-content">
-        <div class="pop-top">
-          <div class="project-title">
-            <div class="test">
-              <div class="title">
-                <p class="pro-title"></p>
-              </div>
-              <div class="close">
-                <button type="button"><img src="./src/assets/img/cross.svg" alt=""></button>
-              </div>
-            </div>
-            <div class="frame">
-              <div class="projDetails"></div>
-            </div>
-          </div>
-          <div class="snapshoot">
-            <img class="projPic" src="#" alt="first project snapshoot">
-          </div>
-        </div>
-        <div class="pop-bottom">
-          <div class="project-info">
-            <p class="proInfo"></p>
-          </div>
-          <div class="pop-right">
-            <div class="project-tags">
-              <ul>
-                <li class="lang1"></li>
-                <li class="lang2"></li>
-                <li class="lang3"></li>
-              </ul>
-            </div>
-            <div class="project-action">
-              <a href="" id="see-live" target="_blank">See Live <img src="./src/assets/img/live-icon.svg" alt=""></a>
 
-              <a href="" id="see-source" target="_blank">See Source <img src="./src/assets/img/live-icon.svg"
-                  alt=""></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
-  <script src="index.js"></script>
-  <script src="popup.js"></script>
-  <script src="validate.js"></script>
+  <script src="./index.js"></script>
+
 </body>
 
 </html>
