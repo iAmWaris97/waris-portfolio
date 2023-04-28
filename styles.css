@@ -315,7 +315,7 @@ main {
 }
 
 .desc h4 span {
-  padding-right: 0 12px;
+  padding-right: 0;
   color: #c1c7d0;
   text-transform: capitalize;
 }
@@ -1029,7 +1029,7 @@ form > * {
     display: none;
   }
 
-  .close:hover{
+  .close:hover {
     display: none;
   }
 
@@ -1214,6 +1214,7 @@ form > * {
 
   .project-popup {
     width: 65vw;
+
     /* padding: 0.5em 1em; */
   }
 

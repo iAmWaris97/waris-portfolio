@@ -43,53 +43,53 @@ window.onload = () => {
   });
 
   const projectsData = [{
-      title: 'Private Investigators',
-      subtitle: 'Find the Truth, Book a P.I.',
-      techStack: 'Full Stack Dev',
-      year: 2023,
-      src: './src/assets/img/projects/investigators.png',
-      highlight: '<em>Private Investigators stands out as a unique and innovative solution for those looking to book private investigation services.</em> <em>The project utilizes React as a front-end development tool and Rails API as a back-end.</em> <em>The app employs authentication rules which make the booking process a simple and secure process for users.</em>',
-      description: 'Private Investigators is an innovative platform that offers a streamlined booking experience for users seeking licensed investigators. This project is developed with a dynamic React front-end and a robust Rails API back-end. The app incorporates secure authentication protocols to enable effortless booking of private investigator appointments.',
-      lang: ['React', 'Redux', 'Ruby on Rails', 'PostgreSql'],
-      live: 'https://investigators.netlify.app/',
-      source: 'https://github.com/iAmWaris97/Private-Investigators',
-    },
-    {
-      title: 'Meal Mentor',
-      subtitle: 'Discover, Plan, and Cook with Ease',
-      techStack: 'JavaScript & Webpack',
-      year: 2022,
-      src: './src/assets/img/projects/meal-mentor.png',
-      highlight: 'Meals Mentor is a user-friendly web app designed for hassle-free meal planning and cooking. Built with modern web development technologies such as HTMLCSS, JavaScript, and Webpack, it offers a seamless browsing experience where users can search for recipes, comment, and select their favorites. It was tested using Jest to ensure a high-quality deliverable.',
-      description: 'Meal Mentor simplifies meal planning and cooking. Featuring a sleek and user-friendly interface, the app is designed to provide an effortless browsing experience. Its modern web development technologies, including CSS, JavaScript, and Webpack, improve the performance and provide a seamless experience. Users can search for recipes, leave comments, and select their favourite meals as they navigate through the platform.',
-      lang: ['CSS', 'JavaScript', 'Webpack', 'Jest'],
-      live: 'https://iamwaris97.github.io/Delicious-Meals/dist/',
-      source: 'https://github.com/iAmWaris97/Delicious-Meals',
-    },
-    {
-      title: 'Every Cent',
-      subtitle: 'Track every penny!',
-      techStack: 'Rails & PostgreSQL',
-      year: 2023,
-      src: './src/assets/img/projects/every-cent.jpg',
-      highlight: 'This app is user-friendly and simplifies expense tracking while providing complete financial control with the ability to categorize expenses and view a detailed summary by category. It is built using Ruby on Rails and PostgreSQL and has a responsive design.',
-      description: 'Every Cent is a mobile first application that helps users to easily track their expenses. The app is designed to be user-friendly and allows you to categorize your expenses with ease. Every Cent was created using Ruby on Rails and is fully responsive, so you can use it on any device. With Every Cent, you can quickly add expenses and view a detailed summary by category, which makes it easier for you to keep your spending in check.',
-      lang: ['Ruby', 'Ruby on Rails', 'PostgreSql'],
-      live: 'https://something.netlify.app/',
-      source: 'https://github.com/iAmWaris97/investigators-frontend',
-    },
-    {
-      title: 'Space Traveler\'s Hub',
-      subtitle: 'Explore the Universe!',
-      techStack: 'React & Redux',
-      year: 2023,
-      src: './src/assets/img/projects/space-travelers.png',
-      highlight: ' Space Traveler\'s Hub is a cutting-edge app that brings real-time updates on space launches, missions, and more from SpaceX APIs. It offers users a chance to reserve a seat on SpaceX rockets to explore their favorite solar system destinations or take part in other missions.',
-      description: 'It is an app that provides up-to-date information on space-related news and allows users to book seats on SpaceX rockets for space travel. It fetches live data from the SpaceX APIs, giving real-time alerts about launches and space missions. The app is ideal for space enthusiasts who are always on the lookout for the latest happenings in the space industry.',
-      lang: ['React', 'Redux', 'API', 'Netlify'],
-      live: 'https://something.netlify.app/',
-      source: 'https://github.com/iAmWaris97/investigators-frontend',
-    },
+    title: 'Private Investigators',
+    subtitle: 'Find the Truth, Book a P.I.',
+    techStack: 'Full Stack Dev',
+    year: 2023,
+    src: './src/assets/img/projects/investigators.png',
+    highlight: '<em>Private Investigators stands out as a unique and innovative solution for those looking to book private investigation services.</em> <em>The project utilizes React as a front-end development tool and Rails API as a back-end.</em> <em>The app employs authentication rules which make the booking process a simple and secure process for users.</em>',
+    description: 'Private Investigators is an innovative platform that offers a streamlined booking experience for users seeking licensed investigators. This project is developed with a dynamic React front-end and a robust Rails API back-end. The app incorporates secure authentication protocols to enable effortless booking of private investigator appointments.',
+    lang: ['React', 'Redux', 'Ruby on Rails', 'PostgreSql'],
+    live: 'https://investigators.netlify.app/',
+    source: 'https://github.com/iAmWaris97/Private-Investigators',
+  },
+  {
+    title: 'Meal Mentor',
+    subtitle: 'Discover, Plan, and Cook with Ease',
+    techStack: 'JavaScript & Webpack',
+    year: 2022,
+    src: './src/assets/img/projects/meal-mentor.png',
+    highlight: 'Meals Mentor is a user-friendly web app designed for hassle-free meal planning and cooking. Built with modern web development technologies such as HTMLCSS, JavaScript, and Webpack, it offers a seamless browsing experience where users can search for recipes, comment, and select their favorites. It was tested using Jest to ensure a high-quality deliverable.',
+    description: 'Meal Mentor simplifies meal planning and cooking. Featuring a sleek and user-friendly interface, the app is designed to provide an effortless browsing experience. Its modern web development technologies, including CSS, JavaScript, and Webpack, improve the performance and provide a seamless experience. Users can search for recipes, leave comments, and select their favourite meals as they navigate through the platform.',
+    lang: ['CSS', 'JavaScript', 'Webpack', 'Jest'],
+    live: 'https://iamwaris97.github.io/Delicious-Meals/dist/',
+    source: 'https://github.com/iAmWaris97/Delicious-Meals',
+  },
+  {
+    title: 'Every Cent',
+    subtitle: 'Track every penny!',
+    techStack: 'Rails & PostgreSQL',
+    year: 2023,
+    src: './src/assets/img/projects/every-cent.jpg',
+    highlight: 'This app is user-friendly and simplifies expense tracking while providing complete financial control with the ability to categorize expenses and view a detailed summary by category. It is built using Ruby on Rails and PostgreSQL and has a responsive design.',
+    description: 'Every Cent is a mobile first application that helps users to easily track their expenses. The app is designed to be user-friendly and allows you to categorize your expenses with ease. Every Cent was created using Ruby on Rails and is fully responsive, so you can use it on any device. With Every Cent, you can quickly add expenses and view a detailed summary by category, which makes it easier for you to keep your spending in check.',
+    lang: ['Ruby', 'Ruby on Rails', 'PostgreSql'],
+    live: 'https://something.netlify.app/',
+    source: 'https://github.com/iAmWaris97/investigators-frontend',
+  },
+  {
+    title: 'Space Traveler\'s Hub',
+    subtitle: 'Explore the Universe!',
+    techStack: 'React & Redux',
+    year: 2023,
+    src: './src/assets/img/projects/space-travelers.png',
+    highlight: ' Space Traveler\'s Hub is a cutting-edge app that brings real-time updates on space launches, missions, and more from SpaceX APIs. It offers users a chance to reserve a seat on SpaceX rockets to explore their favorite solar system destinations or take part in other missions.',
+    description: 'It is an app that provides up-to-date information on space-related news and allows users to book seats on SpaceX rockets for space travel. It fetches live data from the SpaceX APIs, giving real-time alerts about launches and space missions. The app is ideal for space enthusiasts who are always on the lookout for the latest happenings in the space industry.',
+    lang: ['React', 'Redux', 'API', 'Netlify'],
+    live: 'https://something.netlify.app/',
+    source: 'https://github.com/iAmWaris97/investigators-frontend',
+  },
   ];
 
   const projectCardString = projectsData.map((project) => `
@@ -257,10 +257,10 @@ document.addEventListener('DOMContentLoaded', () => {
   // Check if the user has scrolled down to the portfolio grid
   function isElementInViewport(el) {
     const rect = el.getBoundingClientRect();
-    return (rect.top <= (window.innerHeight || document.documentElement.clientHeight) &&
-      rect.bottom >= 0 &&
-      rect.left <= (window.innerWidth || document.documentElement.clientWidth) &&
-      rect.right >= 0);
+    return (rect.top <= (window.innerHeight || document.documentElement.clientHeight)
+      && rect.bottom >= 0
+      && rect.left <= (window.innerWidth || document.documentElement.clientWidth)
+      && rect.right >= 0);
   }
 
   window.addEventListener('scroll', () => {
