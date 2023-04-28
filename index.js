@@ -185,7 +185,7 @@ window.onload = () => {
     if (valid) {
       const message = document.createElement('span');
       message.classList.add('success');
-      message.innerHTML = 'Data sent successfully! 🙌';
+      message.innerHTML = 'Message sent successfully!🚀';
       messageContainer.replaceChildren(message);
     } else {
       const message = document.createElement('span');
@@ -197,13 +197,13 @@ window.onload = () => {
 
   const name = document.querySelector('#name');
   const email = document.querySelector('#email');
-  const comment = document.querySelector('#mesasge');
+  const message = document.querySelector('#mesasge');
 
   function saveData() {
     const data = {
       fieldName: name.value,
       fieldEmail: email.value,
-      fieldComment: comment.value,
+      fieldComment: message.value,
     };
     localStorage.setItem('data', JSON.stringify(data));
   }
@@ -213,7 +213,7 @@ window.onload = () => {
     formObject = {
       name: '',
       email: '',
-      comment: '',
+      message: '',
     };
     saveData();
   }
@@ -226,8 +226,8 @@ window.onload = () => {
     formObject.email = '';
   }
 
-  if (!formObject.comment) {
-    formObject.comment = '';
+  if (!formObject.message) {
+    formObject.message = '';
   }
 
   name.value = formObject.name;
@@ -242,9 +242,9 @@ window.onload = () => {
     localStorage.setItem('data', JSON.stringify(formObject));
   });
 
-  comment.value = formObject.comment;
-  comment.addEventListener('change', (e) => {
-    formObject.comment = e.target.value;
+  message.value = formObject.message;
+  message.addEventListener('change', (e) => {
+    formObject.message = e.target.value;
     localStorage.setItem('data', JSON.stringify(formObject));
   });
 };
